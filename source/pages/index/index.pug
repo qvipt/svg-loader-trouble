@@ -1,0 +1,15 @@
+
+extends ../_template
+
+block variables
+  - var title = 'Главная страница'
+block content
+  section.section.hero
+    .hero__socials
+      
+      ul.socials
+          li.social__item
+            a(href="" class="social__item--link")
+              svg(class="social__item--pic")
+                use(xlink:href=require('./img/sprite/in.svg'))
+  

@@ -1,0 +1,32 @@
+{
+  "name": "webpack4.default",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "dev": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.0.6",
+    "node-sass": "^4.7.2",
+    "normalize": "^0.3.1",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
+    "pug": "^2.0.1",
+    "pug-loader": "https://github.com/pugjs/pug-loader/tarball/master",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "svg-sprite-loader": "^3.7.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  }
+}

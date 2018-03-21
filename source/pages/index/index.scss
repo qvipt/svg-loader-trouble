@@ -1,0 +1,29 @@
+.hero {
+    background-image: url('./img/forest.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.user {
+    width: 314px;
+    height: 228px;
+    text-align: center;
+}
+
+.hero__user {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.user__name {
+    font-size: 35px;
+    color: #fff;
+}
+
+.user__info {
+    font-size: 16px;
+    color: #fff;;
+}
+
